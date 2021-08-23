@@ -1,0 +1,533 @@
+/* 
+
+fonts :
+        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Roboto', sans-serif;
+
+*/
+
+.color-main
+{
+    color: #ff305b;
+}
+.bg-main
+{
+    background-color: #ff305b;
+}
+.m-section
+{
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+.w-45
+{
+    width: 47.5% !important;
+}
+
+ /* for every section heading */
+.section-heading
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px !important;
+    font-weight: 800 !important;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 40px;
+    width: 50%;
+    color: #333;
+}
+.section-heading::after
+{
+    content: "";
+    position: absolute;
+    bottom: 25%;
+    left: 33.333%;
+    background-color: #ff305b;
+    height: 1px;
+    width: 33.333%;
+}
+.section-heading::before
+{
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 16%;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 6px 0 5px;
+    width: 11.111%;
+}
+ /* for every section heading */
+
+/* start nav bar */
+.navbar
+{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.navbar-brand
+{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+}
+.navbar-brand:hover
+{
+    color: #ff305b;
+}
+.nav-link
+{
+    color: white;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 20px 0;
+    transition: 0.5s all ease;
+}
+.nav-link:hover
+{
+    color: #ff305b;
+}
+
+
+/* end navbar */
+
+/* start header */
+header
+{
+    background-image: url(../images/slider/slider-01.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.header-bg
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 100% 100%;
+}
+
+.head-content h3
+{
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.head-content h1
+{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head-content p
+{
+    font-size: 26px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/* end header */
+
+
+/* start about section */
+.about-img
+{
+    overflow: hidden;
+}
+.about-img .img-border
+{
+    border: 7px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    height: 440px;
+}
+.about-img img
+{
+    height: 440px;
+    transform: translate(20px ,20px);
+}
+.img-media
+{
+    position: absolute;
+    top: 500px;
+    transform: translate(20px ,20px);
+    height: 440px;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.img-border:hover .img-media
+{
+    position: absolute;
+    top: 0;
+}
+.img-media i
+{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.img-media i:hover
+{
+    color: #ff305b;
+}
+
+    /* start about content */
+.about-title h2
+{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-information .info p
+{
+    color: #555555;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.about-information .info p span
+{
+    color: #333333;
+    font-weight: 500;
+}
+
+
+.about-buttons button
+{
+    background-color: rgb(255, 48, 91);
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 8px;
+    
+}
+.about-buttons button:hover
+{
+    background-color: #EC2403;
+}
+
+    /* end about content */
+/* end about section */
+
+
+/* start Services section */
+.services 
+{
+    background: #f1f1f1;
+
+}
+.services .serv .serv-shadow i
+{
+    color: #ff305b;
+    display: block;
+    font-size: 36px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.services .serv:hover .serv-shadow
+{
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 5px 15px 20px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    transition: 0.2s all 0s ease-in-out;
+
+}
+.services .serv:hover .serv-shadow i
+{
+    transform: scale(1.2);
+}
+.services .serv .serv-shadow h3
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.services .serv  .serv-shadow p
+{
+    color: #555555;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* end Services section */
+
+/* start portfolio section */
+
+.portfolio .port-btns 
+{
+    width: 100%;
+    margin: 0px auto;
+}
+.portfolio .port-btns a
+{
+    border: none;
+    background-color: transparent;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.portfolio .port-btns a:active,.portfolio .port-btns a:hover , .portfolio .port-btns a:focus
+{
+    color: #ff305b;
+}
+.port-photos .photo
+{
+    overflow: hidden;
+}
+
+.bg-icon
+{
+    margin: 0 auto;
+    width: 92.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 15px;
+    transition: all ease 1s;
+    opacity: 0;
+}
+.port-photos .photo:hover .bg-icon
+{
+    opacity: 1;
+}
+/* end portfolio section */
+
+
+/* start statistics section */
+.statistics .heading h3
+{
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+.statistics .heading h5
+{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* end statistics section */
+
+/* start feedback section */
+.feedback
+{
+    overflow: hidden;
+}
+
+.client-info h3
+{
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+.client-info i
+{
+    color: #777777;
+    font-size: 15px;
+}
+.client-info p
+{
+    color: #555555;
+    font-size: 16px;
+    font-style: italic;
+}
+.client
+{
+    position: relative;
+}
+.client::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-width: 100px;
+    border-style: solid;
+    border-right-color: rgba(0,0,0,0);
+    border-bottom-color: rgba(0,0,0,0);
+    border-top-color: #ff305b;
+    border-left-color: #ff305b;
+
+}
+.slider-btn
+{
+    flex: 0 1 auto;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ff305b !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+/* end feedback section */
+
+
+/* start blogs section */
+.blog-banner iframe
+{
+    height: auto;
+    min-height: 200px;
+    border: none;
+}
+.blog-content p
+{
+    color: #555555;
+}
+.blog-content h3
+{
+    transition: all 0.2s ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.blog-content h3:hover
+{
+    color: #ff305b;
+}
+.blog-content a
+{
+    transition: all 0.3s ease-in-out;
+    color: #333;
+    text-decoration: none;
+}
+.blog-content a:hover
+{
+    color: #ff305b;
+
+}
+
+/* end blogs section */
+
+/* start contact section */
+.form
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.form input
+{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+
+}
+.form input:focus
+{
+    border: 1px solid #ff305b;
+}
+.form textarea
+{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+.form textarea:focus
+{
+    border: 1px solid #ff305b;
+}
+.form button
+{
+    background-color: rgb(255, 48, 91);
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 8px;
+    
+}
+.form button:hover
+{
+    background-color: #EC2403;
+}
+
+/* end contact section */
+
+
+/* start footer */
+footer
+{
+    background-color: #333333;
+}
+.med-icon i
+{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.med-icon i:hover
+{
+    color: #ff305b;
+}
+
+.copyright p
+{
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.copyright span
+{
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Courier New', sans-serif;
+
+}
+.copyright span span
+{
+    color: #ff305b !important;
+}
+/* end footer */
+

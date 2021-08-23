@@ -1,0 +1,26 @@
+<----- JS OOP ----->
+
+=> Way to write the clean code ( best practice ) ; 
+
+// OOP
+/*
+	simulate Reality
+	OOP >> 2 way to do it 1.Class based 2.protoype based	
+*/
+ 			-------------------------------------------------
+1: class based 
+	// it's mean i make a class ( it's not in real) and i make an object to make it real 
+			-------------------------------------------------
+
+2: prototype base
+	// it's mean i made a small object ( stnba ) and i take it copy and modify to be the real 
+
+NB : JavaScript is prototype base OOP 
+
+Ex : Let person = function(name , age){
+					this.name = name;  ( // you make add this. to delcare a propty not an variable ) 
+					this.age = age; 
+				       } // its an small object ( not real )
+	let ahmed = new person(Ahmed , 20 ); ( that mean i take the person properties for ahmed )
+
+			-------------------------------------------------

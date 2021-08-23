@@ -1,0 +1,191 @@
+/* 
+custom css file for responsive websites
+
+screens :  
+            extra small  <  576  px
+                  small  >= 576  px 
+                  medium >= 768  px
+                  large  >= 992  px
+            extra large  >= 1200 px
+
+ */
+ @media screen and (max-width: 576px) /* for control in extra small screens*/
+ {
+      /* start header responsive */
+      .nav-link
+      {
+            text-align: center;
+      }
+      /* end header responsive */
+
+      /* start about section */
+      .about-img .img-border
+      {
+            border: none;
+      }
+      .about-img img
+      {
+            margin: 0 auto;
+            width: 95%;
+      }
+      .img-media
+      {
+            width: 95% !important;
+      }
+      .about-img
+      {
+            margin-bottom: 10px;
+      } 
+
+      /* end about section */
+
+      /* start blog section */
+      .blog
+      {
+            margin-bottom: 15px !important;
+      }
+      /* end blog section */
+
+      /* start footer section */
+      .media-container
+      {
+            width: 100%;
+      }
+
+      /* end footer section */
+
+      /* for heading of every section */
+      .port-head
+      {
+            width: 100%;
+
+      }
+      /* for heading of every section */
+
+
+ }
+ @media screen and (min-width: 576px) and (max-width: 767px )/* for control in small screens*/
+ {
+      /* start about section */
+      .about-img
+      {
+            margin-bottom: 10px;
+      } 
+      .about-img .img-border
+      {
+            border: none;
+      }
+      .about-img img
+      {
+            margin: 0 auto;
+            width: 75%;
+      }
+      .img-media
+      {
+            width: 75% !important;
+      }
+      .about-img
+      {
+            margin-bottom: 10px;
+      } 
+
+      /* end about section */
+
+      /* start blog section */
+      .blog
+      {
+            margin-bottom: 15px !important;
+      }
+      /* end blog section */
+
+      /* start footer section */
+      .media-container
+      {
+            width: 100%;
+      }
+
+      /* end footer section */
+
+
+      /* for heading of every section */
+      .port-head
+      {
+            width: 100%;
+
+      }
+      /* for heading of every section */
+ }
+ @media screen and (min-width: 768px) and (max-width: 991px ) /* for control in meduim screens*/
+ {
+            /* start about section */
+            .about-img
+            {
+                  margin-bottom: 10px;
+            } 
+            .about-img .img-border
+            {
+                  border: none;
+
+            }
+            .about-img .img-border img
+            {
+
+                  min-height: 440px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 75%;
+
+            }
+            .img-media
+            {
+                  width: 75% !important;
+            }
+            
+            
+            /* end about section */
+
+            /* start blog section */
+            .blog
+            {
+                  margin-bottom: 15px !important;
+            }
+            /* end blog section */
+
+            /* start footer section */
+            .media-container
+            {
+                  width: 50%;
+            }
+
+            /* end footer section */
+
+
+            /* start portfolio section */
+            .port-btns
+            {
+                  width: 60% !important;
+            }
+            /* end portfolio section */
+ }
+ @media screen and (min-width: 992px) /* for control in large screens*/
+ {
+       /* start portfolio section */
+      .port-btns
+      {
+            width: 50% !important;
+      }
+       /* end portfolio section */
+
+      /* start footer section */
+      .media-container
+      {
+            width: 25%;
+      }
+
+      /* end footer section */
+
+ }
+ @media screen and (min-width: 1200px) /* for control in large screens*/
+ {
+
+ }

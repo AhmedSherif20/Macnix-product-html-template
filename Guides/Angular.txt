@@ -1,0 +1,88 @@
+<----------------------- Angular ----------------------->
+
+1) NPM
+	download NPM ( node package manger )
+
+2) Angular Cli 
+	after download NPM , download angular cli (angular helper) cmd => npm install -g @angular/cli
+	NB: you write -g to download it only one time
+
+3) new Angular project 
+	to start new angular project after download Angular cli cmd => ng new app-name
+
+4) open Angular project
+	go to project file directory and do cmd => ng server --open 
+
+5) Angular Component
+	every componet have 4 things [ 1.selector=> <home></home> 2.HTML_file 3.CSS_File 4.TypeScript_File ]
+	after do all component, add all component to main Angular component <app-root></app-root>
+	NB: don't try to do component manually do it with Angular Cli 
+	to do Component with cli cmd=> ng g//generate c//component componentName => ng g c home
+	NB: to skip unit test files cmd=> ng g c home --skip-tests
+
+6) Angular Module
+	Module = container of lot of components , it will help you to mange lot of components
+	you can have lot of Modules and lot of component inside them
+
+7) Angular.json
+	file to link styles and scripts files to be global for all modules and components
+
+8) Angular Binding
+	// way to link between HTML and TypeScript 
+
+	<-- one way data binding -->	
+		1- {{}} =>> data interpolation
+		<h1>welcome {{userName}} back </h1> // to put a value inside HTML tag
+
+		2- [] =>> proerty binding
+		<img [src]="imgSrc" /> // to put a value inside HTML attr 
+
+		3- () =>> Event binding
+		<button (click)="welcome"> say welcome</button> // short way to add eventlistener
+		<input (keyup.shift.t)="test($event)" type="text" /> // other event and $event use to send click info
+	
+		4- class binding [class.text-danger]
+		<h2 [class.bg-danger]="true">Maro</h2>	
+
+		5- style binding
+		<h2 [style.color]="boolen ==true? "red" : "green" ">Maro</h2>
+
+	<-- two way data binding --> form HTML to TS 
+		with banana box and anguler module =>> [(ngModel)]='x' that is mean take the value and put in variable x 
+		NB: you must import angular form module inside ur module , add it in imports array of ur module
+
+9) Angular Directives 
+	
+	A) *ngIf
+		it's if statment in HTML code =>> *ngIf="name==ahmed; else: #ng-template
+		NB: ng-template is like a div will display if condition is false 
+
+	B) *ngFor
+		making for loop and display data in HTML ( بدل الا الكرتونه ) cmd=> *ngFor="let x of friends" //friends is array and x array content 
+		NB: you add that ngFor in that element you want to loop it like LI in UL
+		to add index of i cmd=> *ngFor="let x of friends; let i = index"
+
+10) Angular Routing 
+	send all data at first time and only reload the part of new data ( not all site ) 
+	Routing is 2 things 1.Path at url 2.Component will display with that path 
+	The file responsible for routing is => app-routing-module
+
+	// you can do routing in 3 steps 
+		1) go to app-routing-module and add paths and componets in  routes array 
+		2) add <router-outlet></router-outlet> tag that place will be for routing components
+		3) add routerLink attr to anchor tag to modify that url path
+
+	/// if path is empty to you redirect user to defulat path like home cmd => {path: "" , redirectTo : "home" , patchMatch: Full }
+	/// for make 404 page not found make the path is path: "**" , and add it last path in the list 
+	
+
+11) Angular Service 
+	service to be one source file for all modules and components ,and you can access it form any where 
+	service == shared data and logic ( functions ) 
+
+	// you can do service and use it in 4 steps 
+		1) create service cmd=> ng g s service --skip-test
+		2) import in any component you want 
+		3) add service to consturctor method of componet class cmd consturctor( _service:service )
+		4) enjoy with using it 
+ 

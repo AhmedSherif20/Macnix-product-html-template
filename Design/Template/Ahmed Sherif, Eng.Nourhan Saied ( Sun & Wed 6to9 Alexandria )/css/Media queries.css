@@ -1,0 +1,139 @@
+/* 
+custom file for responsive websites
+
+screens :  
+            extra small  <  576  px
+                  small  >= 576  px 
+                  medium >= 768  px
+                  large  >= 992  px
+            extra large  >= 1200 px
+
+ */
+ @media screen and (max-width: 576px)      
+ {
+ 
+ }
+ @media screen and (min-width: 576px)      
+ {
+
+ }
+ @media screen and (min-width: 768px)      
+ {
+ 
+ }
+ @media screen and (min-width: 992px)      
+ {
+ 
+ }
+ @media screen and (min-width: 1200px)    
+ {
+ 
+ }
+
+/*___________________ star navbar ___________________*/
+
+@media screen and (max-width: 576px)      
+{
+    .navbar-media 
+    {
+        display: none !important;
+        
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px)
+{
+    .navbar-media 
+    {
+        display: none !important;
+        
+    }
+}
+/*___________________ end navbar ___________________*/
+
+
+/*___________________ start header ___________________*/
+@media screen and (max-width: 576px)      
+{
+    .header-content h1
+    {
+        width: 100%;
+    }
+}
+
+/*___________________ end header ___________________*/
+
+/*___________________ start section heading for every section  ___________________*/
+@media screen and (max-width: 576px)      
+{
+    .section-heading .h-section::after
+    {
+        left: 40%;
+    }
+    .section-heading  .h-section:hover::after
+    {
+        width: 120px;
+        left: 38%;
+    }
+}  
+@media screen and (min-width: 576px) and (max-width: 992px)        
+ {
+    .section-heading .h-section::after
+    {
+        left: 44%;
+    }
+    .section-heading  .h-section:hover::after
+    {
+        width: 120px;
+        left: 42%;
+    }
+ }
+
+/*___________________ end section heading for every section  ___________________*/
+
+/*___________________ start OUR TEAM section  ___________________*/
+@media screen and (max-width: 576px)      
+{
+    .member-img img
+    {
+        width: 100%;
+    }
+}
+
+
+/*___________________ end OUR TEAM section  ___________________*/
+
+
+/*___________________ start anyIdea section  ___________________*/
+
+@media screen and (max-width: 576px)      
+{
+    .btn-section
+    {
+        margin: 15px auto;
+    }
+}
+
+
+/*___________________ end anyIdea section  ___________________*/
+
+
+
+/*___________________ start client section  ___________________*/
+
+@media screen and (max-width: 576px)      
+{
+    #clientReviews .carousel-control-prev
+    {
+        top: 400px;
+    }
+    #clientReviews .carousel-control-next
+    {
+        top: 400px;
+    }
+}
+
+
+
+
+/*___________________ end client section  ___________________*/
+

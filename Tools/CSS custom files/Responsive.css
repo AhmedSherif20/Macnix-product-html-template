@@ -1,0 +1,31 @@
+/* 
+custom file for responsive websites
+
+screens :  
+            extra small  <  576  px
+                  small  >= 576  px 
+                  medium >= 768  px
+                  large  >= 992  px
+            extra large  >= 1200 px
+
+ */
+@media screen and (max-width: 576px)      /* for control in extra small screens*/
+{
+
+}
+@media screen and (min-width: 576px)      /* for control in small screens*/
+{
+
+}
+@media screen and (min-width: 768px)      /* for control in meduim screens*/
+{
+
+}
+@media screen and (min-width: 992px)      /* for control in large screens*/
+{
+
+}
+@media screen and (min-width: 1200px)    /* for control in large screens*/
+{
+
+}

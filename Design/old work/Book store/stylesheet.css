@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Monospace	;
+
+}
+body{
+    /* height: 5000px; */
+}
+/* Width >> 1366px*/
+.container{
+
+    width: 1366px;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    position: relative;
+    background: transparent url(images/cover.jpg) no-repeat;
+    background-size: cover;
+    height: 850px;
+
+}
+
+header h1{
+    font-size: 70px;
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+    line-height: 90px;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+
+}
+header p{
+    color: white;
+    font-size: 24px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+
+    line-height: 35px;
+}
+header button{
+    background-color: transparent;
+    color: white;
+    width: 15%;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    transition: all 0.5s ease 0s;
+}
+
+header button:hover{
+    background-color: #F08080;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #F08080;
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    top: 92%;
+    left: 17%;
+    color: white;
+    display: inline-flex;
+    transition: all 0.1s ease 0s;
+}
+header ul:hover{
+    color: white;
+    background-color:#F08080;
+    border-radius: 50px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+header ul li {
+    font-size: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+nav .bg{
+    background-color: black		;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-left: 100;
+    height:80px;
+}
+nav .contant img{
+    display: inline-flex;
+    position: absolute;
+    top: 1%;
+    color: white;
+}
+nav .contant h2{
+    position: absolute;
+    top: 2.5%;
+    font-size: 40px;
+    left: 18%;
+    color: white;
+}
+
+nav .contant ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    position: absolute;
+    top: 3%;
+    right: 12%;
+}
+nav .contant li{
+    text-transform: uppercase;
+    margin-left: 40px ;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav .contant li:nth-of-type(6){
+    font-size: 24px;
+}
+nav .contant li:nth-of-type(7){
+    font-size: 24px;
+}
+nav .contant li:hover{
+    color: #F08080		;
+}
+nav .contant li a{
+    text-decoration: none;
+    color: white;
+}
+nav .contant li a:hover{
+    color: #F08080		;
+}
+.aboutus{
+    width: 100%;
+    height: 770px;
+    background-color: white;
+}
+.aboutus h2{
+    text-align: center;
+    color: black;
+    margin: 70px auto 40px auto;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.aboutus h2 span{
+    color: #B7233B;
+}
+.aboutus p{
+    width: 720px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 20px;
+}
+.aboutus .border{
+    margin: 50px auto 50px auto;
+    border: 1px solid #81266C ;
+    padding: 20px;
+    border-radius: 25px;
+    width: 1200px;
+}
+.aboutus .border p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    width: 568px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #81266C ;
+}
+.aboutus .border button{
+    color: white ;
+    font-size: 18px;
+    padding: 15px;
+    width: 220px;
+    background-color: #81266C;
+    border: 2px groove transparent;
+    margin-left: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.aboutus .border img{
+    position: absolute;
+    top: 1200px;
+    right: 450px;
+
+}
+.lib{
+    width: 100%;
+    height: 1200px;
+}
+.lib h2{
+    text-align: center;
+    color: black;
+    margin: 170px auto 40px auto;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.lib h2 span{
+    color: #B7233B;
+}
+.lib p{
+    width: 720px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 20px;
+    width: 1060px;
+}
+.lib span{
+    width: 100%;
+    height: 800px;
+}
+.lib img{
+    margin: 40px auto ;
+    width: 1366px;
+    background-size: cover;
+}
+.lib button{
+    color: white ;
+    font-size: 18px;
+    padding: 15px;
+    width: 220px;
+    background-color: #81266C;
+    border: 2px groove transparent;
+    margin-top: 0px;
+    margin-left: 560px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.ob{
+    width: 100%;
+    height: 900px;
+
+}
+.ob h2{
+    text-align: center;
+    color: black;
+    margin: 35px auto 40px auto;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.ob h2 span{
+    color: #B7233B;
+}
+.ob p{
+    width: 720px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 20px;
+    width: 1060px;
+    line-height: 35px;
+}
+.ob img{
+    margin: 60px 0px 40px 175px;
+}
+.ob button{
+    color: white ;
+    font-size: 18px;
+    padding: 15px;
+    width: 220px;
+    background-color: #81266C;
+    border: 2px groove transparent;
+    margin-top: 60px;
+    margin-left: 610px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.contact{
+
+    margin: auto;
+    width: 1366px;
+    height: 350px;
+    background-color: #272727;
+}
+.contact h3{
+    color: white;
+    font-size: 40px;
+    margin: 50px 0px 50px 565px;
+
+}
+.contact input{
+    width: 250px;
+    height: 10%;
+    margin-left: 50px;
+    margin-bottom: 5%;
+
+}
+.contact input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.contact input.sub{
+    width: 150px;
+    height: 50px;
+    margin-left: 580px;
+    font-size: 24px;
+    background-color: #81266C;
+    color: white;
+    border: 1px groove #81266C;
+    cursor: pointer;
+}
+.follow{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 200px;
+    width: 1366px;
+    background-image: linear-gradient(#752A7C, #B52033);
+}
+.follow h2{
+    width: 140px;
+    color: white;
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-bottom: 2px groove white;
+
+}
+.follow ul{
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.follow ul li{
+    margin-left: 50px;
+     margin-top: 40px;
+}
+.follow h2:nth-of-type(2){
+    position: absolute;
+    right: 750px;
+    top: 4121px;
+}
+.follow input{
+    width: 500px;
+    height: 35px;
+    margin-left: 250px;
+}
+.follow input::placeholder{
+    margin-left: 5px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.follow button{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: 1px groove black;
+    cursor: pointer;
+}
+.copy{
+    width: 1366px;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+}
+.copy p{
+    margin-left:300PX;
+    color: white;
+    font-size: 24px;
+    font-family: "Courier New";
+}

@@ -1,0 +1,46 @@
+Git commands and Git_Hub tips 
+
+1) git init 
+// to make your project support git
+
+2) git config --global user.name “Ahmed”
+// to set your user name
+
+3) git config --global user.email "git hub email"
+// to set your user email 
+
+4) git remote add origin (link) 
+// to line github repo with your files in ur pc 
+
+5) git add * 
+// to add all new files to your local repo 
+
+6) git commit --m "msg"
+// to what new changed in files 
+
+7) git push origin (branch name)
+// to upload files to github repo in branch  
+
+8) git log
+// to get commit logs 
+
+9) git stats 
+// to see the status of the files
+
+10) git clone (repo link)
+// to get repo form github to your pc 
+
+11) git pull origin ( branch name ) 
+// to get lastest version form updates in branch 
+
+12) git reset --hard
+// to delete last edit before commit it
+
+13) git branch
+// to know all branches, and know in which branch I working
+
+14) git checkout -b (branch name)
+// to create and switch to a new branch
+
+15) git checkout (branch name)
+// to switch to branch
