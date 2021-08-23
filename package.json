@@ -1,0 +1,29 @@
+{
+  "name": "product-html-template",
+  "version": "1.0.0",
+  "description": "template to advertise and sell a product",
+  "main": "index.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedSherif20/Macnix-product-html-template.git"
+  },
+  "keywords": [
+    "product",
+    "watches",
+    "appleWatch"
+  ],
+  "author": "Eng.Ahmed Sherif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedSherif20/Macnix-product-html-template/issues"
+  },
+  "homepage": "https://github.com/AhmedSherif20/Macnix-product-html-template#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0",
+    "popper.js": "^1.16.1"
+  }
+}
