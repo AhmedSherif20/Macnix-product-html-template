@@ -1,0 +1,30 @@
+@import "./variables";
+footer
+{
+    background: linear-gradient(-90deg, #0985f9 0%, #6809dc 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    padding: 40px 0;
+    p
+    {
+        font: {
+            size: 16px;
+            weight: 500;
+            family: "Courier New";
+        };
+        width: 95%;
+        margin: auto;
+        a
+        {
+            color: #dd4ffc;
+            text-decoration: none;
+            transition: 0.2s;
+            &:hover
+            {
+                color: pink;
+            }
+        }
+    }
+   
+    
+}

@@ -12,14 +12,18 @@
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!--bootstrap css-->
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- owl carsoul -->
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" />
     <!-- main style -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <!---------------------- navbar ---------------------->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="./assets/images/logo.png" alt="Logo" class="img-fluid">
         </a>
         
@@ -33,28 +37,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#latestProduct">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonial</a>
+              <a class="nav-link" href="#testimonials">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Faq</a>
+              <a class="nav-link" href="#FAQ">Faq</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blogs">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -65,7 +69,7 @@
         </div>
       </div>
     </nav>
-
+    <!---------------------- header section ---------------------->
     <header>
       <div class="container">
           <div class="row">
@@ -78,7 +82,7 @@
               <div class="header-content d-flex justify-content-center  flex-column h-100">
                 <h1>Best Landing Page For Product Showcase</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tenetur est expedita ab animi earum aperiam delectus vero consequuntur temporibus?</p>
-                <a href="#" class="header-btn">
+                <a href="#latestProduct" class="header-btn">
                   <i class="fas fa-shopping-cart me-1"></i>
                   Buy Now
                 </a>
@@ -87,12 +91,617 @@
           </div>
       </div>
     </header>
+    <!---------------------- about section ---------------------->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-7">
+            <div class="about-content">
+              <h5>About The Watch</h5>
+              <h2>A Watch Can Make Your Life Easy and Comfortable.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+              </p>
+              <p>
+                Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis
+              </p>
+              <div class="about-features">
+                <div class="row">
+                  <div class="col-4">
+                    <i class="fas fa-layer-group"></i>
+                    <h6>Attractive</h6>
+                  </div>
+                  <div class="col-4">
+                    <i class="fas fa-atom"></i>
+                    <h6>Fashionable</h6>
+                  </div>
+                  <div class="col-4">
+                    <i class="fas fa-chart-pie"></i>
+                    <h6>Modern</h6>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5">
+            <div class="about-img">
+              <img src="./assets/images/watch-2.png" alt="watch 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------- features section ---------------------->
+    <section id="features">
+      <div class="container">
+        <h5 class="subtitle">Features</h5>
+        <h2 class="head-title">Attractive Features</h2>
+        <p class="section-p">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+        </p>
+        <div class="features my-4">
+          <div class="row justify-content-around">
+            <div class=" col-lg-5">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>User Friendly</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Praesent dapibus
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-5">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-comment"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>User Live Chat</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Praesent dapibus
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-5">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-bell"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Instant Alert</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Praesent dapibus
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-5">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Data Analysis</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Praesent dapibus
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------- choose a product section ---------------------->
+    <section id="chooseProduct">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="choose-product-img">
+              <img src="./assets/images/watch-1.png" alt="watch1">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="choose-product-content">
+              <h2>Why Choose The Product?</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+              <div class="choose-product-features">
+                <div class="row">
+
+                  <div class="col-md-12">
+                    <div class="choose-product-features features-up">
+                      <div class="choose-product-feature">
+                        <i class="fas fa-gem"></i>
+                        <h4>1 Year Guarantee</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis.</p>
+                      </div>
+                      <div class="choose-product-feature">
+                        <i class="fas fa-truck"></i>
+                        <h4>Free Shipping</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="choose-product-features features-down">
+                      <div class="choose-product-feature">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h4>Free Product Return</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis.</p>
+                      </div>
+                      <div class="choose-product-feature">
+                        <i class="fas fa-headset"></i>
+                        <h4>Dedicated Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <!---------------------- features 2 section  ---------------------->
+    <section id="coreFeatures">
+      <div class="container">
+
+        <h5 class="subtitle">Core Features</h5>
+        <h2 class="head-title">Outstanding Features</h2>
+        <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+
+        <div class="core-features-content">
+            <div class="row">
+                <div class="col-md-4 ">
+                        <div class="core-feature">
+                            <i class="fab fa-snapchat-square"></i>
+                            <h4>Instant Notification</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, suscipit facere.</p>
+                        </div>
+                        <div class="core-feature">
+                            <i class="fas fa-comment"></i>
+                            <h4>User Live Chat</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, suscipit facere.</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="core-features-img d-flex justify-content-center align-items-center h-100">
+                        <img src="./assets/images/watch-2.png" alt="watch-2">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="core-feature">
+                        <i class="fas fa-play-circle"></i>
+                        <h4>Live Video Call</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, suscipit facere.</p>
+                    </div>
+                    <div class="core-feature">
+                        <i class="fas fa-phone-alt"></i>
+                        <h4>User Instant Call</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, suscipit facere.</p>
+                    </div>
+            </div>
+
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <!---------------------- product section ---------------------->
+    <section id="productDemo" class=" position-relative">
+        <div class="container">
+        <h5 class="subtitle">Product Demo</h5>
+        <h2 class="head-title">Watch A Quick Demo</h2>
+        <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div class="video-box position-relative d-flex justify-content-center align-items-center my-5">
+                    <div class="video-img">
+                        <img src="./assets/images/video-bg.jpg" alt="video-bg" class=" img-fluid">
+                        <div class="video-overlay"></div>
+                    </div>
+                    <a class="position-absolute">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div> 
+        <div class="video-show d-none">
+            <div class="video">
+                <i class="fas fa-times"></i>
+                <iframe src="https://www.youtube.com/embed/TCMnrssX1NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!---------------------- product 2 section ---------------------->
+    <section id="latestProduct">
+        <div class="container">
+            <h5 class="subtitle">Product</h5>
+            <h2 class="head-title">Our Latest Product</h2>
+            <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+            <div class="products">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./assets/images/watch-1.png" alt="watch" class="img-fluid">
+                                <p>20% off</p>
+                            </div>
+                            <div class="product-details">
+                                <h4>Rexpo Black</h4>
+                                <p><span class=" text-decoration-line-through">$79.00</span> $60.00</p>
+                                <button>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>                  
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./assets/images/watch-2.png" alt="watch" class="img-fluid">
+                            </div>
+                            <div class="product-details">
+                                <h4>Dekko Black</h4>
+                                <p>$69.00</p>
+                                <button>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>                  
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./assets/images/watch-4.png" alt="watch" class="img-fluid">
+                                <p>25% off</p>
+                            </div>
+                            <div class="product-details">
+                                <h4>Texsus Black</h4>
+                                <p><span class=" text-decoration-line-through">$85.00</span> $55.00</p>
+                                <button>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>                  
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./assets/images/watch-1.png" alt="watch" class="img-fluid">
+                            </div>
+                            <div class="product-details">
+                                <h4>Amex Black</h4>
+                                <p>$59.00</p>
+                                <button>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+            <a href=""><i class="fas fa-sync-alt"></i> reload</a>
+        </div>
+    </section>
+    <!---------------------- sbuscribe Box section ---------------------->
+    <section id="subscribeBox">
+        <div class="container">
+            <div class="sub-box">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="sub-title">
+                            <h2>Subscribe Our Newsletter</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="sub-form">
+                            <form action="">
+                                <input type="email" class="form-control" placeholder="Write Your Email" required>
+                                <button>Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- testimonials section ---------------------->
+    <section id="testimonials">
+        <div class="container">
+            <h5 class="subtitle">Testimonial</h5>
+            <h2 class="head-title">Client's Feedback</h2>
+            <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+            
+            <div class="testimonials my-4">
+                <div class="owl-carousel owl-theme">
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-1.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Adam Smith</h5>
+                            <p>Affiliate Marketer</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-2.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Sopia Smith</h5>
+                            <p>Product Researcher</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-3.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Shane Warne</h5>
+                            <p>Affiliate Marketer</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-4.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Emma Smith</h5>
+                            <p>Affiliate Marketer</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-2.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Sopia Smith</h5>
+                            <p>Product Researcher</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonail-img">
+                            <img src="./assets/images/client-3.jpg" alt="client-1" class=" img-fluid">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Shane Warne</h5>
+                            <p>Affiliate Marketer</p>
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        <div class="testimonial-review">
+                            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- FAQ section ---------------------->
+    <section id="FAQ">
+        <div class="container">
+            <h5 class="subtitle">FAQ</h5>
+            <h2 class="head-title">Frequently Asked Questions</h2>
+            <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+            
+            <div class="questions">
+                <div class="question">
+                    <p>
+                        <button class="question-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <h4>How can I buy the watch?</h4>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </p>
+                    <div class="collapse show" id="collapseExample">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>
+                        <button class="question-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            <h4>How can I order the watch?</h4>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>
+                        <button class="question-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                            <h4>How much price of the watch?</h4>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample5">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>
+                        <button class="question-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                            <h4>How can I get refund?</h4>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- Blog section ---------------------->
+    <section id="blogs">
+        <div class="container">
+            <h5 class="subtitle">Up To Date</h5>
+            <h2 class="head-title">Our Latest News</h2>
+            <p class="section-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+            
+            <div class="blogs my-5">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog">
+                            <div class="card">
+                                <img src="./assets/images/blog-1.jpg" class="card-img-top" alt="blog 1">
+                                <div class="card-body">
+                                  <h6 class="card-blogger">By: <span>Admin</span> / <span>25 Jun, 2018</span></h6>  
+                                  <h5 class="card-title">How To Install Watch Apps</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eveniet porro tenetur omnis saepe vitae sapiente eum consectetur.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog">
+                            <div class="card">
+                                <img src="./assets/images/blog-2.jpg" class="card-img-top" alt="blog 2">
+                                <div class="card-body">
+                                  <h6 class="card-blogger">By: <span>Admin</span> / <span>28 Jun, 2018</span></h6>  
+                                  <h5 class="card-title">How To Active All Features</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eveniet porro tenetur omnis saepe vitae sapiente eum consectetur.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog">
+                            <div class="card">
+                                <img src="./assets/images/blog-3.jpg" class="card-img-top" alt="blog 3">
+                                <div class="card-body">
+                                  <h6 class="card-blogger">By: <span>Admin</span> / <span>30 Jun, 2018</span></h6>  
+                                  <h5 class="card-title">How To Chat With Users</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eveniet porro tenetur omnis saepe vitae sapiente eum consectetur.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- contact section ---------------------->
+    <section id="contact" class="mb-0">
+        <div class="container">
+            <h5 class="contact-subtitle">Need Help?</h5>
+            <h2 class="contact-head-tilte">Contact With Us</h2>
+            <p class="contact-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+            
+            <form class="contact-form">
+                
+                    <div>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name*">
+                
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email*">
+                    </div>
+
+                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Subject*">
+                
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Leave us your message*"></textarea>
+
+                    <button type="button">Submit</button>
+
+            </form>
+        </div>
+    </section>
+    <!---------------------- footer section ---------------------->
+    <footer>
+        <p class="text-center text-white">
+            © Copyright 2021 All Rights Reserved, Designed By <a href="https://themeforest.net/user/rootpointer">RootPointer</a> Developed By <a href="https://github.com/AhmedSherif20" target="_blank">Ahmed Sherif</a>
+         </p>
+    </footer>
+
+    <!-- Jquery script -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
     <!-- popperjs script -->
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <!-- bootstrap js -->
+    <!-- bootstrap script -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    
+    <!-- owl carousel script -->
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!-- custom script -->
+    <script src="./js/script.js"></script>
 
   </body>
 </html>

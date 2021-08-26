@@ -2,12 +2,15 @@
 @import "./variables";
 nav
 {
-    background-color: rgba($color: black, $alpha: 0.1);
+    // background-color: #130f40;
+    // background-color: rgba($color: black, $alpha: 0.1);
     position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
     font-family: $fontPoppins !important;
+    padding: 14px 0 !important;
+    z-index: 9999999999999999999;
     .navbar-toggler
     {
         border: 0;

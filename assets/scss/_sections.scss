@@ -1,0 +1,983 @@
+@import "./variables";
+
+// ___________________ shared style for sections ___________________
+section
+{
+    padding: 96px 0 12px;
+    margin: 48px 0;
+}
+.subtitle
+{
+    background: linear-gradient(-90deg, #0985f9 0%, #6809dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: {
+        family: $fontOpenSans;
+        weight: 700;
+    };
+    text-align: center;
+}
+.head-title
+{
+    font: {
+        family: $fontPoppins;
+        weight: 700;
+        size: 30px;
+    };
+    color: $colorHead;
+    text-align: center;
+}
+.section-p
+{
+    color: #555;
+    font: {
+        size: 14px;
+        family: $fontOpenSans;
+        weight: 600; 
+    };
+    margin-bottom: 12px;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+// ___________________ shared style for sections ___________________
+
+// ___________________ Start About Section ___________________
+#about
+{
+    .about-content
+    {
+        h5
+        {
+            font: {
+                family: $fontOpenSans;
+                weight: 700;
+            };
+            background: linear-gradient(-90deg, #0985f9 0%, #6809dc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2
+        {
+            font: {
+                family: $fontPoppins;
+                weight: 700;
+                size: 30px;
+            };
+            color: $colorHead;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        p
+        {
+            font: {
+                family: $fontOpenSans;
+                weight: 600;
+                size: 14px;
+            };
+            line-height: 24px;
+            color: #555;
+            margin-bottom: 16px;
+            width: 90%;
+
+        }
+        .about-features
+        {
+            text-align: center;
+            padding: 12px 0;
+            margin: 18px 0;
+            i
+            {
+                color: #1d46f5;
+                font-size: 26px;
+                margin-bottom: 6px;
+            }
+            p
+            {
+                font: {
+                    family: $fontPoppins;
+                    weight: 600;
+                };
+            }
+        }
+    }
+    .about-img
+    {
+        text-align: center;
+        img
+        {
+            max-width: 300px;
+        }
+    }
+}
+// ___________________ End About Section ___________________
+
+// ___________________ Start Features Section ___________________
+#features
+{
+    background-image: url(../../assets/images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    .features
+    {
+        margin: 24px;
+        padding: 10px;
+        .feature
+        {
+            display: flex;
+            align-items: flex-start;
+            width: fit-content;
+            margin-bottom: 48px;
+            border-bottom: 2px solid #1d46f5;
+            border-radius: 4px;
+            .feature-icon
+            {
+                width: 15%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i
+                {
+                    color: #1d46f5;
+                    font-size: 30px;
+                    width: 65px;
+                    height: 65px;
+                    background-color: #f5f5ff;
+                    border-radius: 50%;
+                    line-height: 60px;
+                    box-shadow: 0 0 10px rgba($color: rgb(29,70,245), $alpha: 0.8);
+                    border: 3px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .feature-content
+            {
+                padding: 0 10px;
+                h4
+                {
+                    color: $colorHead;
+                    font: {
+                        family: $fontPoppins;
+                        weight: 600; 
+                    };
+                }
+                p
+                {
+                    font: {
+                        family: $fontPoppins;
+                        weight: 600; 
+                        size: 14px;
+                    };
+                    color: #555;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+// ___________________ End Features Section ___________________
+
+
+// ___________________ Start Choose-product Section ___________________
+#chooseProduct
+{
+    background-image: url(../../assets/images/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    .choose-product-img
+    {
+        text-align: center;
+        img
+        {
+            max-width: 300px;
+        }
+    }
+    .choose-product-content
+    {
+        padding-top: 50px;
+
+        h2
+        {
+            color: white;
+            font: {
+                size: 30px;
+                family: $fontPoppins;
+                weight: 700; 
+            };
+        }
+        p
+        {
+            color: #fff;
+            line-height: 24px;
+            font: {
+                size: 14px;
+                family: $fontOpenSans;
+                weight: 600; 
+            };
+            margin-bottom: 60px;
+        }
+        .choose-product-features
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 24px 0;
+            border-radius: 4px;
+            .choose-product-feature
+            {
+                width: 47%;
+                text-align: center;
+                i
+                {
+                    color: #1d46f5;
+                    font-size: 30px;
+                    width: 65px;
+                    height: 65px;
+                    background-color: #f5f5ff;
+                    border-radius: 50%;
+                    line-height: 60px;
+                    box-shadow: 0 0 10px rgba($color: rgb(29,70,245), $alpha: 0.8);
+                    border: 3px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto 12px;
+                }
+                h4
+                {
+                    color: $colorHead;
+                    font: {
+                        family: $fontPoppins;
+                        weight: 600; 
+                    };
+                }
+                p
+                {
+                    font: {
+                        family: $fontPoppins;
+                        weight: 600; 
+                        size: 14px;
+                    };
+                    color: #555;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        .features-up
+        {
+            margin-bottom: 50px;
+            background-color: white;
+
+        }
+        .features-down
+        {
+            margin-bottom: 50px;
+            background-color: white;
+
+        }
+    }
+}
+// ___________________ End Choose-product Section ___________________
+
+// ___________________ Start Core Features Section ___________________
+#coreFeatures
+{
+    .core-features-content
+    {
+        margin-top: 24px ;
+        padding: 10px 0;
+        .core-feature
+        {
+            background-color: white;
+            margin-bottom: 48px;
+            padding: 20px;
+            i
+            {
+                font-size: 30px;
+                display: inline-block;
+                margin-bottom: 15px;
+                background: linear-gradient(-50deg, #0985f9 0%, #6809dc 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-color: transparent;
+            }
+            h4
+            {
+                color: $colorHead;
+                font: {
+                    size: 20px;
+                    family: $fontPoppins;
+                    weight : 600;
+                };
+            }
+            p
+            {
+                font: {
+                    size: 14px;
+                    family: $fontOpenSans;
+                    weight : 600;
+                };
+                color: #555;
+                line-height: 24px;
+                margin-bottom: 10px;
+                width: 80%;
+            }
+        }
+        .core-features-img
+        {
+            text-align: center;
+            img
+            {
+                max-width: 300px;
+            }
+        }
+    }
+}
+// ___________________ End Core Features Section ___________________
+
+
+// ___________________ Start product demo Section ___________________
+#productDemo
+{
+    .video-box
+    {
+        text-align: center;
+        margin: auto;
+        width: fit-content;
+        border-radius: 10px;
+        overflow: hidden;
+        .video-img
+        {
+            position: relative;
+            
+            .video-overlay
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-image: linear-gradient(-50deg, #0985f9 0%, #6809dc 100%);
+                opacity: 0.8;
+            }
+        }
+        a
+        {
+            color: #0985f9;
+            background-color: white;
+            text-decoration: none;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 0.35s;
+            &:hover
+            {
+                color: white;
+                background-color: $colorHead;
+            }
+            &::before
+            {
+                content: "";
+                position: absolute;
+                left: -5px;
+                top: -5px;
+                height: 90px;
+                width: 90px;
+                border: 3px solid #fff;
+                border-radius: 50%;
+                -webkit-animation: icon-bubble 1s infinite forwards linear 0.5s;
+                animation: icon-bubble 1s infinite forwards linear 0.5s;
+            }
+            &::after
+            {
+                content: "";
+                position: absolute;
+                left: -5px;
+                top: -5px;
+                height: 90px;
+                width: 90px;
+                border: 3px solid #fff;
+                border-radius: 50%;
+                -webkit-animation: icon-bubble 1s infinite forwards linear;
+                animation: icon-bubble 1s infinite forwards linear;
+            }
+        }
+    }
+}
+.video-show
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: black, $alpha: 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .video
+    {
+        width: 900px;
+        height: 500px;
+        background-color: rgba($color: black, $alpha: 0.5);
+        position: relative;
+        padding: 48px 10px 10px 10px;
+        i
+        {
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            cursor: pointer;
+        }
+        iframe
+        {
+            width: 100%;
+            height:100%;
+            box-sizing: border-box;
+        }
+    }
+}
+@keyframes icon-bubble {
+    0% {
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+        opacity: 1;
+    }
+    25% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0.55;
+    }
+    75% {
+        -webkit-transform: scale(1.32);
+        transform: scale(1.32);
+        opacity: 0.3;
+    }
+    100% {
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+// ___________________ End product demo Section ___________________
+
+
+
+// ___________________ Start latest products Section ___________________
+#latestProduct
+{
+    text-align: center;
+    .products
+    {
+        padding: 12px 0;
+        margin-top: 24px;
+        .product
+        {
+            // background-color: #F1F1F1;
+            overflow: hidden;
+            border: 0.5px solid rgba($color: grey, $alpha: 0.3);
+            border-radius: 5px;
+            margin-bottom: 24px;
+            .product-img
+            {
+                position: relative;
+                p
+                {
+                    text-align: center;
+                    position: absolute;
+                    left: -40px;
+                    top: 18px;
+                    transform: rotate(-45deg);
+                    background: linear-gradient(-90deg, #0985f9 0%, #6809dc 100%);
+                    padding: 5px 50px;
+                    color: #fff;
+                    font: {
+                        size: 14px;
+                        weight: 500;
+                        family: $fontPoppins
+                    };
+                }
+                
+            }
+            .product-details
+            {
+                text-align: center;
+                padding: 10px 0;
+                h4
+                {
+                    color: #7800ff;
+                    font: {
+                        size: 22px;
+                        weight: 700;
+                        family: $fontOpenSans
+                    };
+                }
+                p
+                {
+                    font: {
+                        size: 18px;
+                        weight:600;
+                        family: $fontPoppins
+                    };
+                    color: $colorHead;
+                    margin: 10px 0;
+                }
+                button
+                {
+                    background-color: transparent;
+                    outline: none;
+                    border: 2px solid #1d46f5;
+                    color: #1d46f5;
+                    padding: 4px 12px;
+                    border-radius: 30px;
+                    font-weight: 600;
+                    transition: 0.25s;
+                    margin: 10px ;
+                    &:hover
+                    {
+                        color: white;
+                        background-color: #1d46f5;
+                    }
+                }
+            }
+        }
+    }
+    a
+    {
+        color: white;
+        border-radius: 30px;
+        padding: 8px 25px;
+        transition: 0.3s;
+        background-image:linear-gradient(-90deg, #1d46f5 0%, #6809dc 100%);;
+        background-size: 100% auto;
+        font: {
+            size: 15px;
+            weight: 500;
+            family: $fontPoppins;
+        };
+        width: fit-content;
+        margin: 20px auto 0;
+        text-decoration: none;
+        transition: 0.35s;
+        &:hover
+        {
+            background-size: 160% auto;
+        }
+    }
+}
+// ___________________ End latest products Section ___________________
+
+// ___________________ Start Subscribe box Section ___________________
+#subscribeBox
+{
+    .sub-box
+    {
+        background: {
+            image: url(./../../assets/images/banner-4.jpg);
+            size: cover;
+            position: center center ;
+            repeat: no-repeat;
+        };
+        padding: 50px;
+        border-radius: 10px;
+        .sub-title
+        {
+            h2
+            {
+                color: white;
+                font: {
+                    size: 30px;
+                    family: $fontPoppins;
+                    weight: 700
+                };
+            }
+        }
+        .sub-form
+        {
+            position: relative;
+            input
+            {
+                border-radius: 30px;
+                height: 50px;
+                &::placeholder
+                {
+                    color: grey;
+                }
+            }
+            button
+            {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                padding: 0 20px;
+                border-radius: 30px;
+                border: 0;
+                background-color: $colorHead;
+                color: #fff;
+                font: {
+                    family: $fontPoppins;
+                };
+                transition: 0.25s;
+                &:hover
+                {
+                    background-color: #7800ff;
+                }
+            }
+        }
+    }
+}
+// ___________________ End Subscribe box Section ___________________
+
+// ___________________ start testimonails Section ___________________
+#testimonials
+{
+    .testimonials
+    {
+        //owl carsoul
+        .testimonial
+        {
+            text-align: center;
+            .testimonail-img
+            {
+                padding: 10px 0;
+                img
+                {
+                    max-width: 120px;
+                    border-radius: 50%;
+                    border: 2px solid #1d46f5;
+                    margin: auto;
+                }
+            }
+            .testimonial-info
+            {
+                margin-bottom: 10px;
+                h5
+                {
+                    font: {
+                        weight: 600;
+                        family: $fontOpenSans;
+                        size: 21px;
+                    };
+                    margin: 10px 0 0;
+                    color: #7800ff;
+                }
+                p
+                {
+                    font: {
+                        weight: 600;
+                        family: $fontOpenSans;
+                        size: 14px;
+                    };
+                    color: #555;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+                span
+                {
+                    i{
+                        color: #f79f1f;
+                    }
+                }
+            }
+            .testimonial-review
+            {
+              p
+              {
+                color: #555;
+                font: {
+                    weight: 600;
+                    family: $fontOpenSans;
+                    size: 14px;
+                };
+                line-height: 24px;
+                margin-bottom: 10px;
+                width: 75%;
+                margin: auto;
+              }
+            }
+        }
+
+    }
+}
+/*==========================
+change carsoul dots 
+==========================*/
+.owl-dots
+{
+    margin-top: 24px !important;
+    .owl-dot
+    {
+        span
+        {
+            background-color: white !important;
+            width: 29px !important;
+            height: 8.8px !important;
+            border: 2px solid #1d46f5 ;
+            border-radius: 0px !important;
+        }
+    }
+    .owl-dot.active , .owl-dot:hover
+    {
+        span
+        {
+            background-color: #1d46f5 !important;
+        }
+    }
+}
+// ___________________ end testimonails Section ___________________
+
+// ___________________ start FAQ Section ___________________
+#FAQ
+{
+    .questions
+    {
+        margin: 48px 0;
+        .question
+        {
+            width: 50%;
+            margin: 0 auto;
+            .question-btn
+            {
+                width: 100%;
+                background: linear-gradient(-90deg, #0985f9 0%, #6809dc 100%);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 12px 20px;
+                border-radius: 2px;
+                color: #fff;
+                border: 0;
+                outline: 0;
+                h4
+                {
+                    font: {
+                        size: 16px;
+                        weight: 500;
+                        family: $fontPoppins
+                    };
+                    line-height: 26px;
+                    margin-bottom: 0 !important;
+                }
+                i
+                {
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
+}
+// ___________________ end FAQ Section ___________________
+
+// ___________________ start blogs Section ___________________
+#blogs
+{
+    .blogs
+    {
+        .blog
+        {
+            margin-bottom: 24px;
+            .card
+            {
+                .card-body
+                {
+                    .card-blogger
+                    {
+
+                        color: #555;
+                        font: {
+                            weight: 600;
+                            size: 13px;
+                            family: $fontPoppins;
+                        };
+                        span
+                        {
+                            color: #325eff;
+                        }
+                    }
+                    .card-title
+                    {
+                        color: #2c3e50;
+                        font: {
+                            weight: 600;
+                            size: 18px;
+                            family: $fontPoppins;
+                        };
+                        transition: 0.25s;
+                        margin: 10px 0;
+                    }
+                    .card-text
+                    {
+                        font-size: 14px;
+                        color: #555;
+                        line-height: 24px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+                }
+                &:hover
+                {
+                    .card-title
+                    {
+                        color: #325eff;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+// ___________________ end blogs Section ___________________
+
+// ___________________ start contact Section ___________________
+#contact
+{
+    background-image: url(../../assets/images/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    text-align: center;
+    color: white;
+    padding: 120px 0 96px;
+    .contact-subtitle
+    {
+        font: {
+            family: $fontOpenSans;
+            weight: 700;
+        };
+    }
+    .contact-head-title
+    {
+        font: {
+            family: $fontPoppins;
+            weight: 700;
+            size: 30px;
+        };
+    }
+    .contact-p
+    {
+        font: {
+            size: 14px;
+            family: $fontOpenSans;
+            weight: 600; 
+        };
+        margin-bottom: 12px;
+        width: 45%;
+        margin: 18px auto 48px ;
+    }
+    form
+    {
+        background-color: white;
+        width: 50%;
+        margin: auto;
+        padding: 40px 40px 25px;
+        border-radius: 10px;
+        div
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            input
+            {
+                width: 48%;
+                border: 1px solid #e6f0fa;
+                height: 50px;
+                font-size: 15px;
+                border: 1px solid rgba($color: grey, $alpha: 0.3);
+                &::placeholder
+                {
+                    font: {
+                        
+                        family: $fontPoppins
+                    };
+                    color: grey;
+                }
+            }
+        }
+        input
+        {
+            margin-bottom: 12px;
+            border: 1px solid #e6f0fa;
+            height: 50px;
+            font-size: 15px;
+            border: 1px solid rgba($color: grey, $alpha: 0.3);
+            &::placeholder
+            {
+                font: {
+                    
+                    family: $fontPoppins
+                };
+                color: grey;
+            }
+        }
+        textarea
+        {
+            margin-bottom: 24px;
+            border: 1px solid #e6f0fa;
+            font-size: 15px;
+            border: 1px solid rgba($color: grey, $alpha: 0.3);
+            height: 150px;
+            min-height: 150px;
+            max-height: 150px;
+            &::placeholder
+            {
+                font: {
+                    
+                    family: $fontPoppins
+                };
+                color: grey;
+            }
+        }
+        button
+        {
+            color: white;
+            border-radius: 30px;
+            border: 0;
+            outline: none;
+            padding: 8px 25px;
+            transition: 0.3s;
+            background-image:linear-gradient(-90deg, #1d46f5 0%, #6809dc 100%);;
+            background-size: 100% auto;
+            font: {
+                size: 15px;
+                weight: 500;
+                family: $fontPoppins;
+            };
+            width: fit-content;
+            text-decoration: none;
+            transition: 0.35s;
+            &:hover
+            {
+                background-size: 160% auto;
+            }
+        }
+
+    }
+}
+// ___________________ end contact Section ___________________
+
+

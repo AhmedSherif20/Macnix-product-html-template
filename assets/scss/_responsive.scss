@@ -1,0 +1,182 @@
+@import "./variables";
+/* ====================
+sections head Responsive
+   ==================== */
+@media screen and (max-width: 991px) {
+    .section-p, .contact-p
+    {
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .section-p, .contact-p
+    {
+        width: 85%;
+    }
+    
+}
+
+/* ====================
+Navbar Responsive
+   ==================== */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-link
+    {
+        margin-right: 10px !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .navbar-collapse
+    {
+        flex-direction: column;
+    }
+    .navbar-btn-collapse
+    {
+        margin: 15px 0;
+    }
+}
+/* ====================
+Header Responsive
+   ==================== */
+@media screen and (max-width: 1199px) 
+{
+    .header-content
+    {
+        h1
+        {
+            width: 100% !important;
+            font-size: 35px !important;
+        }
+    }
+}
+/* ====================
+about Responsive
+   ==================== */
+@media screen and (max-width: 575px)
+{
+    #about
+    {
+        text-align: center;
+        .about-img
+        {
+            img
+            {
+                max-width: 220px;
+            }
+        }
+    }
+}   
+/* ====================
+choose product Responsive
+   ==================== */
+@media screen and (max-width: 991px)
+{
+    .choose-product-img ,.core-features-img
+    {
+        img
+        {
+            max-width: 300px !important;
+        }
+    }
+}  
+@media screen and (max-width: 767px) {
+    .choose-product-img,.core-features-img
+    {
+        img
+        {
+            max-width: 220px !important;
+        }
+    } 
+}
+/* ====================
+subscribeBox Responsive
+   ==================== */
+@media screen and (max-width: 575px)
+{
+    #subscribeBox
+    {
+        .sub-title
+        {
+            h2
+            {
+                font-size: 25px !important;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}  
+/* ====================
+FAQ Responsive
+   ==================== */
+@media screen and (max-width: 991px)
+{
+    #FAQ
+    {
+        .question
+        {
+            width: 75% !important;
+        }
+    }
+}
+@media screen and (max-width: 767px)
+{
+    #FAQ
+    {
+        .question
+        {
+            width: 85% !important;
+        }
+    }
+}
+/* ====================
+contact Responsive
+   ==================== */
+@media screen and (max-width: 1199px){
+    #contact
+    {
+        .contact-form
+        {
+            width: 75%;
+        }
+    }
+}
+@media screen and (max-width: 991px){
+    #contact
+    {
+        .contact-form
+        {
+            width: 90%;
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    #contact
+    {
+        .contact-form
+        {
+            width: 100%;
+        }
+    }
+}
+/* ====================
+footer Responsive
+   ==================== */
+@media screen and (max-width: 991px){
+    footer
+    {
+        p
+        {
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width: 575px){
+    footer
+    {
+        p
+        {
+            width: 90%;
+        }
+    }
+}
