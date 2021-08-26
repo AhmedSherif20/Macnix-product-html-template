@@ -18,7 +18,7 @@
     <!-- main style -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <!---------------------- navbar ---------------------->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -35,9 +35,9 @@
     
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav nav-pills mr-auto">
             <li class="nav-item active">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active" href="#header">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -62,7 +62,7 @@
             </li>
           </ul>
 
-          <a href="#" class="navbar-btn-collapse text-decoration-none">
+          <a href="#latestProduct" class="navbar-btn-collapse text-decoration-none">
             <i class="fas fa-shopping-cart me-1"></i>
             Buy Now
           </a>
@@ -70,7 +70,7 @@
       </div>
     </nav>
     <!---------------------- header section ---------------------->
-    <header>
+    <header id="header">
       <div class="container">
           <div class="row">
             <div class="col-md-5">
@@ -311,17 +311,17 @@
                         <img src="./assets/images/video-bg.jpg" alt="video-bg" class=" img-fluid">
                         <div class="video-overlay"></div>
                     </div>
-                    <a class="position-absolute">
+                    <a class="position-absolute" id="videoPlay">
                         <i class="fas fa-play"></i>
                     </a>
                 </div>
             </div>
         </div>
         </div> 
-        <div class="video-show d-none">
+        <div class="video-show">
             <div class="video">
-                <i class="fas fa-times"></i>
-                <iframe src="https://www.youtube.com/embed/TCMnrssX1NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <i class="fas fa-times" id="videoClose"></i>
+                <iframe src="https://www.youtube.com/embed/TCMnrssX1NE" id="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>

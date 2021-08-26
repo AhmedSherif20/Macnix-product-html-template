@@ -426,7 +426,7 @@ section
     width: 100%;
     height: 100%;
     background-color: rgba($color: black, $alpha: 0.7);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     .video
@@ -979,5 +979,6 @@ change carsoul dots
     }
 }
 // ___________________ end contact Section ___________________
+
 
 
